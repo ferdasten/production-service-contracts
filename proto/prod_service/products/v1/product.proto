@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package prod_service.products.v1;
+
+option go_package = "production_service/gen/go/prod/products/v1;pb_prod_products";
+
+message Product {
+  // Identifier
+  string id = 1;
+  // Name
+  string name = 2;
+  // Description
+  string description = 3;
+  // Image ID
+  string image_id = 4;
+  // Price
+  string price = 5;
+  // Rating
+  uint32 rating = 6;
+  // Category ID
+  string category_id = 7;
+  // Currency ID
+  uint32 currency_id = 8;
+  // Specification
+  string specification = 9;
+  // Updated At
+  int64 updated_at = 10;
+  // Created At
+  int64 created_at = 11;
+}
