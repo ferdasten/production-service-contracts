@@ -1,4 +1,4 @@
-module github.com/deminjb/production-service-contracts/gen/go/prod_service
+module github.com/ferdasten/production-service-contracts/gen/go/prod_service
 
 go 1.20
 
